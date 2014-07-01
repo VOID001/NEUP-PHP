@@ -1,0 +1,26 @@
+<html>
+   <head>
+    <title>css word</title> 
+      <style type="text/css"> 
+< style type="text/css" >
+< !--
+.blur1 { filter: Blur(Add=true, Direction=135, Strength=10)}
+.blur2 { filter: Blur(Add=true, Direction=135, Strength=20)}
+.blur3 { filter: Blur(Add=true, Direction=225, Strength=10)}
+-- >
+< /style >
+      div
+      {
+				width:200;
+				filter:blur(add=true,direction=135,strengh=20) 
+     }         
+      </style>
+   </head>
+   <body> 
+   <div>
+   <p style="font-size:48;font-style:bold;
+   color:red;"class="blur1">hongen</p>
+   <td class="blur1">TRY</td>
+   </div> 
+   </body> 
+  </html>

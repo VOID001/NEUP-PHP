@@ -1,0 +1,8 @@
+17:15,27th June 2014	3 tire(s)	3 oil 	3 spark(s) 	442.2	VOID/ZONE
+17:17,27th June 2014	3 tire(s)	3 oil 	3 spark(s) 	442.2	VOID/ZONE
+17:17,27th June 2014	3 tire(s)	3 oil 	3 spark(s) 	442.2	VOID/ZONE
+17:17,27th June 2014	354 tire(s)	343 oil 	343 spark(s) 	51163.2	VOID/ZONE
+17:17,27th June 2014	1 tire(s)	0 oil 	-0 spark(s) 	55	New SAt.dsaf
+17:43,27th June 2014	3 tire(s)	1 oil 	5 spark(s) 	521.4	New SAt.dsaf
+17:43,27th June 2014	1 tire(s)	8 oil 	9 spark(s) 	860.2	New SAt.dsaf
+22:13,27th June 2014	3 tire(s)	1 oil 	5 spark(s) 	521.4	NewYork
