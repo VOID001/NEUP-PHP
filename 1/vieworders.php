@@ -28,8 +28,8 @@
 		}
 	?>
 <?php
-		$orders=file("$DOCUMENT_ROOT/1/orders/order.txt");
-		$num_of_orders=count($orders);
+		$orders=file("$DOCUMENT_ROOT/1/orders/order.txt");			//file 函数 把文件打开并保存到数组里
+		$num_of_orders=count($orders);								//count 函数 统计数组元素个数
 		//echo "$DOCUMENT_ROOT/1/orders/order.txt";					//测试路径是否正确
 		if($orders==0)
 		{
