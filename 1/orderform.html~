@@ -19,6 +19,9 @@
 				maxlength="3"/></td>
 		</tr>
 		<tr>
+			<td colspan="2" align="center"><input type="submit" value="Submit Order"/></td>
+		</tr>
+		<tr>
 			<td>How did you find Bob's?</td>
 			<td><select name="find">
 				<option value="a">I'm a regular customer </option>
@@ -32,10 +35,6 @@
 			<td><font color="blue">Address</font></td>
 			<td><align="center"><input type="text" name="address" size="30" maxlength="100"/></td>
 		</tr>
-		<tr>
-			<td colspan="2" align="center"><input type="submit" value="Submit Order"/></td>
-		</tr>
-	
 	</table>
 </form>
 

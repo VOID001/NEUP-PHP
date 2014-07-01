@@ -12,7 +12,7 @@
 		echo"<tr>
 			<td align=\"right\">".$distance."</td>
 			<td align=\"right\">".($distance/10)."</td>
-		     </tr>\n";
+		     </tr>\n"
 		$distance+=50;
 	}
 ?>

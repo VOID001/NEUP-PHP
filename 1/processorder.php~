@@ -71,7 +71,6 @@
 				$inputStr=$date."\t".$tireqty." tire(s)"."\t".$oilqty." oil \t"
 						.$sparkqty." spark(s) \t".$totalcost."\t".$address."\n";
 				fwrite($fp,$inputStr,strlen($inputStr));
-				@fclose($fp);
 			}
 		}
 	?>

@@ -27,23 +27,4 @@
 		//	readfile("$DOCUMENT_ROOT/1/orders/order.txt");
 		}
 	?>
-<?php
-		$orders=file("$DOCUMENT_ROOT/1/orders/order.txt");
-		$num_of_orders=count($orders);
-		//echo "$DOCUMENT_ROOT/1/orders/order.txt";					//测试路径是否正确
-		if($orders==0)
-		{
-			echo "<p><strong>No Orders pending. Please try again later.</strong></p>";
-		}
-		else 
-		{
-			for($i=0;$i<$num_of_orders;$i++)
-			{
-				echo $orders[$i] ."<br />";
-			}
-		}
-		echo "$DOCUMENT_ROOT/orders/order.txt";
-?>
 </body>
-
-
