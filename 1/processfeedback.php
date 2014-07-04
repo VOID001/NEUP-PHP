@@ -5,7 +5,7 @@
 	$email=$_PSOT['varaddress'];
 	$feedback=$_POST['varfeed'];
 
-	$toaddress="zhangjianqiu_133@yeah.net";
+	$toaddress="*****@example.net";
 	$subject="Feedback From WebSite";
 	$mailcontent="Customer name=$name\n
 		Customer Email=$email\n
