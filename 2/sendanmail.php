@@ -1,11 +1,5 @@
 <head>
-	<script type="text/css" rel="stylesheet">
-		div{
-			font-family:Arial,serif;
-			font-size:500px;
-			background-color:red;
-		};
-	</script>
+	<link type="text/css" rel="stylesheet" href="sendemail.css" />
 </head>
 <?php error_reporting(0);?>
 <?php echo '<div style="width:500px;height:300px;margin:auto;background-color:#c30ffa" align=center>'; ?>
@@ -81,7 +75,7 @@ function load_form($state=0,$wrong_post=NULL,$post=NULL)
 		<table border="0">
 			<h2>Registration</h2>
 			<tr>
-				<td><div class="style1">UserName</div></td>
+				<td><div class="id-1">UserName</div></td>
 				<td><input type="text" name="name" value="<?php echo $state?$post['name']:""; ?>"></td>
 			</tr>
 			<tr>
