@@ -2,7 +2,10 @@
 	<link type="text/css" rel="stylesheet" href="sendemail.css" />
 </head>
 <?php error_reporting(0);?>
-<?php echo '<div style="width:500px;height:300px;margin:auto;background-color:#c30ffa" align=center>'; ?>
+<div class="id-0"></div>
+<div class="id-0"></div>
+<div class="id-0"></div>
+<?php echo '<div style="width:500px;height:290px;margin:auto;background-color:#c30ffa" align=center>'; ?>
 <?php
 /**
  * Created by PhpStorm.
@@ -65,26 +68,48 @@ function verify($var)
 <?php
 function load_form($state=0,$wrong_post=NULL,$post=NULL)
 {
+	if($state==0)
+	{
+		$color = "#43a0fa";
+	}
+	else if(!empty($wrong_post))
+	{
+		$color = "#ff00ed";
+	}
+	else
+	{
+		$color = "#00ffaa";
+	}
+
+	if($_SERVER['REQUEST_METHOD']=='GET') unset($color);
 	?>
-	<?php if(!empty($wrong_post)) {?>
-		<div style="background-color:#ff00ed" align=center>
+	<div style="background-color:<?php echo $color; ?> ; height:30" align=center>
+		<?php if(!empty($wrong_post)) {?>
 			<h3 style="font-family:Courier;">Error! the form is not filled correctly</h3>
-		</div>
 		<?php } ?>
+		<?php if($state==0){?>
+			<h3 style="font-family:Courier;">Please fill in the Form</h3>
+		<?php } ?>
+		<?php if($state==1 && empty($wrong_post)){?>
+			<h3 style="font-family:Courier;">Succesfully register</h3>
+		<?php } ?>
+
+	</div>
 	<form method="post" action="<?php echo $_SERVER['PHP_SELF']?>">
 		<table border="0">
-			<h2>Registration</h2>
+			<h2 style="color:#a0dfba">Registration</h2>
 			<tr>
 				<td><div class="id-1">UserName</div></td>
 				<td><input type="text" name="name" value="<?php echo $state?$post['name']:""; ?>"></td>
 			</tr>
 			<tr>
-				<td>UserID</td>
+				<td><div class="id-1">UserID</div></td>
 				<td><input type=text name="id" value="<?php echo $state?$post['id']:"";?>"></td>
 			</tr>
 			<tr>
-				<td align="center" >
-					<input type="submit" name="submit" value="Sign in">
+				<td align=center class="id-2" colspan="2" >
+					<div class="id-0"></div>
+						<input class="id-2" type="submit" name="submit" value="Sign in">
 				</td>
 			</tr>
 		</table>

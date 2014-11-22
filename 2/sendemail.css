@@ -1,5 +1,18 @@
+.id-0{
+    height:40px;
+}
+
 .id-1{
-    font-family:Arial,serif;
-    font-size:500px;
-    background-color:red;
+    font-family:Verdana, Arial, Helvetica;
+    font-style:oblique;
+    font-size:15;
+    background-color:#ffaabb;
+}
+
+.id-2{
+    font-family:Verdana, Arial, Helvetica;
+    height:30;
+    width:100;
+    margin-top:auto;
+
 }
