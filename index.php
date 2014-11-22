@@ -6,12 +6,12 @@
 	<head>ACG Fun!</head>
 	<body>
 		<h1>ACG PIC</h1>
-		<a href="/1"><font color="red">Chapter_1</font></a>
+		<a href="1/"><font color="red">Chapter_1</font></a>
 		<div align="center">
 		<table width= 5%>
 		<tr>
 		<?php
-			echo"<td align=\"center\"><img src=\"1/pic/$arrpic[0].jpg\"/></td>";			//html Ò»¶¨ÒªºÃºÃ¶ÔÒ»¶Ô Õâ¸öhtml³öÎÊÌâ±È½Ï¿Ó
+			echo"<td align=\"center\"><img src=\"1/pic/$arrpic[0].jpg\"/></td>";			//html Ò»ï¿½ï¿½Òªï¿½ÃºÃ¶ï¿½Ò»ï¿½ï¿½ ï¿½ï¿½ï¿½htmlï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È½Ï¿ï¿½
 		?>
 		</tr>
 	</table>
